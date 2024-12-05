@@ -9,7 +9,9 @@ const TestimonialSection = ({ data }) => {
         alt="learner"
         className="border border-cyan-700 rounded-full"
       />
-      <p className="text-center text-4xl text-neutral-700">{data.review}</p>
+      <p className="text-center text-3xl font-semibold text-neutral-700 leading-tight tracking-wide [word-spacing:0.25em]">
+        {data.review}
+      </p>
       <RatingStar />
       <div className="flex gap-3 items-center justify-center">
         <p className="text-3xl font-bold">{data.name}</p>|

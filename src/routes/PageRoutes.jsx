@@ -1,13 +1,13 @@
-import HomePage from "../feature/home/pages/HomePage";
-import CoursesPage from "../feature/courses/pages/CoursesPage";
-import BecomeAnInstructorPage from "../feature/become-an-instructor/pages/BecomeAnInstructorPage";
 import AboutPage from "../feature/about-us/pages/AboutPage";
-import TermsAndConditionsPages from "../feature/terms-and-conditions/pages/TermsAndConditionsPages";
-import PrivacyPolicyPage from "../feature/privacy-policy/pages/PrivacyPolicyPage";
-import ContactPage from "../feature/contact/pages/ContactPage";
 import ApplyFormPage from "../feature/become-an-instructor/pages/ApplyFormPage";
+import BecomeAnInstructorPage from "../feature/become-an-instructor/pages/BecomeAnInstructorPage";
+import ContactPage from "../feature/contact/pages/ContactPage";
 import CourseDetailPage from "../feature/courses/pages/CourseDetailPage";
+import CoursesHomePage from "../feature/courses/pages/CoursesHomePage";
 import LessonDetailPage from "../feature/courses/pages/LessonDetailPage";
+import HomePage from "../feature/home/pages/HomePage";
+import PrivacyPolicyPage from "../feature/privacy-policy/pages/PrivacyPolicyPage";
+import TermsAndConditionsPages from "../feature/terms-and-conditions/pages/TermsAndConditionsPages";
 
 const PageRoutes = [
   {
@@ -28,7 +28,7 @@ const PageRoutes = [
     children: [
       {
         index: true,
-        element: <CoursesPage />,
+        element: <CoursesHomePage />,
       },
       {
         path: ":slug",

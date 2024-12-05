@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Container from "../../../components/Container";
+import LogInFrom from "../components/LogInFrom";
 
 const LogInPage = () => {
+
   return (
-    <div>LogInPage</div>
-  )
-}
+    <Container>
+     <LogInFrom />
+    </Container>
+  );
+};
 
 export default LogInPage

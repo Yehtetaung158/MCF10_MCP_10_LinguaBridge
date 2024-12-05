@@ -11,7 +11,8 @@ export default {
       },
       colors: {
         "primary-color": "#17A2B8", // Orange color
-        "secondary-color": "#F3FDFF", // Yellow color
+        "primary-hover-color": "#24737f",
+        "secondary-color": "#F3FDFF", 
         "light-yellow": "#FEF6E0",
         "dark-yellow": "#F7C32E",
         "light-green": "#DAFFEB",
@@ -53,9 +54,16 @@ export default {
         },
       },
       fontSize: {
+
+        "pl_font_size": "18px",
+        "pm_font_size": "16px",
+        "ps_font_size": "14px",
+        "sm_font_size": "12px",
+
         pl_font_size: "18px",
         pm_font_size: "16px",
         ps_font_size: "14px",
+
       },
       fontWeight: {
         header_weight: "700",

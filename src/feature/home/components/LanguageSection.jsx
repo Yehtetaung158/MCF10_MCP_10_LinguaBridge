@@ -99,9 +99,11 @@ const LanguageSection = () => {
           <GrLinkNext size={20} className="mx-auto text-black" />
         </button>
       </div>
-
-      <div className="flex flex-col mt-28 gap-10 relative">
-        <h2 className="text-4xl font-semibold tracking-wide">
+      <div className="flex flex-col mt-28 gap-8 relative">
+        {/* <h2 className="hidden xl:block xl:text-4xl font-bold">
+          Your Language Learning Journey in Your Pocket!
+        </h2> */}
+        <h2 className="hidden lg:block lg:text-3xl xl:text-4xl font-bold">
           Your Language Learning Journey in Your Pocket!
         </h2>
         <AppDownloadSection />

@@ -9,6 +9,7 @@ const RatingStar = ({ totalStars = 5, defaultRating = 4.5 }) => {
         // Render full star
         stars.push(
           <FaStar
+            size={20}
             key={i}
             className="star"
             style={{ cursor: "default", color: "#17A2B8" }}
@@ -18,6 +19,7 @@ const RatingStar = ({ totalStars = 5, defaultRating = 4.5 }) => {
         // Render half star
         stars.push(
           <FaStarHalfAlt
+            size={20}
             key={i}
             className="star"
             style={{ cursor: "default", color: "#17A2B8" }}
@@ -27,6 +29,7 @@ const RatingStar = ({ totalStars = 5, defaultRating = 4.5 }) => {
         // Render empty star
         stars.push(
           <FaRegStar
+            size={20}
             key={i}
             className="star"
             style={{ cursor: "default", color: "#17A2B8" }}
